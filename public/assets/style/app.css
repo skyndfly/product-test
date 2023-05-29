@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+
+}
+html{
+    font-family: Arial, serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+nav.desktop{
+    background: rgba(30, 40, 50, 0.05);
+}
+nav.desktop .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 31px 0 25px 0;
+    border-bottom: 1px solid #E3E3E3;
+}
+nav.desktop button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+nav.desktop .row{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+nav.desktop .row a{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+
+    font-size: 18px;
+    color: #1E2832;
+}
+
+nav.desktop .search_box{
+    width: 220px;
+    max-width: 220px;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    position: relative;
+    padding-left: 30px;
+}
+#search_btn{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#search_input{
+    outline: none;
+    background-color: transparent;
+    width: 100px;
+    border: none;
+    border-bottom: 2px solid #1E2832;
+}
+nav.desktop .bottom{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav.desktop .bottom a{
+    font-family: 'Open Sans', serif;
+    color: #000;
+}
+header{
+    padding-top: 81px;
+    padding-bottom: 60px;
+    background: rgba(30, 40, 50, 0.05);
+}
+.header_content{
+    display: flex;
+    align-items: center;
+}
+header h1{
+    font-weight: 400;
+    font-size: 74px;
+    line-height: 55px;
+    text-transform: capitalize;
+    margin-bottom: 52px;
+    color: #000000;
+}
+header h2{
+    width: 682px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 55px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 66px;
+}
+header a{
+    background: #1E2832;
+    display: inline-block;
+    padding: 19px 29px;
+    font-size: 29px;
+    line-height: 34px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    transition: .3s;
+}
+header a:hover{
+    background: #1b3e4f;
+}
+header a img{
+    margin-right: 11px;
+}
+header .stroke
+{
+    max-width: 424px;
+    width: 424px;
+    max-height: 542px;
+    height: 542px;
+    position: relative;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 160px 0px;
+}
+header .float_img{
+    position: absolute;
+    left: -18px;
+    top: -20px;
+    border-radius: 160px 0px;
+}
+
+
+.hidden{
+    display: none;
+}
+@media (max-width: 1320px) {
+    .container{
+        padding: 0 50px;
+    }
+
+
+}
